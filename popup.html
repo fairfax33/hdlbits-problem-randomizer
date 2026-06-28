@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h1>HDLBits Random</h1>
+
+  <label class="toggle">
+    <input type="checkbox" id="completedOnly" />
+    <span>Only completed problems</span>
+  </label>
+
+  <button id="pick">Random problem</button>
+
+  <div id="result" class="result" hidden>
+    <span class="result-label">Picked problem</span>
+    <a id="resultLink" class="result-link" target="_blank" rel="noopener"></a>
+  </div>
+
+  <p id="status" class="status"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>

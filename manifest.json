@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "HDLBits Random Problem",
+  "version": "1.1.0",
+  "description": "Pick a random HDLBits problem to solve, optionally restricted to ones you've already completed.",
+  "action": {
+    "default_title": "HDLBits Random Problem",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["scripting", "activeTab", "storage"],
+  "host_permissions": ["https://hdlbits.01xz.net/*"]
+}
