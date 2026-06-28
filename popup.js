@@ -91,7 +91,7 @@ async function pickRandom() {
 
     const choice = pool[Math.floor(Math.random() * pool.length)];
     showResult(choice);
-    setStatus(`Chose from ${pool.length} problem${pool.length === 1 ? "" : "s"}.`);
+    setStatus(`Chosen from ${pool.length} problem${pool.length === 1 ? "" : "s"}.`);
   } catch (err) {
     setStatus(`Couldn't read problems: ${err.message}`, true);
   } finally {
